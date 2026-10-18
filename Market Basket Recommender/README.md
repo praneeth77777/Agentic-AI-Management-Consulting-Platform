@@ -13,11 +13,13 @@ This project implements the retail track as a cart-aware association-rule recomm
 - Exposes the recommender through FastAPI.
 ## Video presentation
 
+https://youtu.be/We5Os7BAwBE
+
 ## Slide deck
 
 A slide deck covering the pipeline, the five model families, the reported results, baseline comparisons, validation, and open research directions.
 
-- [View on Google Slides](https://docs.google.com/presentation/d/17BJrPQ7LwxDE8MK6KnKN7EHg0wbYldsa/edit?usp=sharing)
+- [CartSense - Market Basket Recommender](https://docs.google.com/presentation/d/1RXjuwi-5arJ_t2qVXHH6ZltW7JahVG56w9TkgbEj44s/edit?usp=sharing)
 
 
 ## Files
