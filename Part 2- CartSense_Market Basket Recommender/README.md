@@ -12,13 +12,13 @@ This project implements the retail track as a cart-aware association-rule recomm
 - Tunes rule thresholds on a validation set and reports final metrics on a held-out test set.
 - Exposes the recommender through FastAPI.
 ## Video presentation
-[CartSense - Market Basket Recommender](https://youtu.be/We5Os7BAwBE)
+[CartSense - Market Basket Recommender Video](https://youtu.be/We5Os7BAwBE)
 
 ## Slide deck
 
 A slide deck covering the pipeline, the five model families, the reported results, baseline comparisons, validation, and open research directions.
 
-- [CartSense - Market Basket Recommender](https://docs.google.com/presentation/d/1RXjuwi-5arJ_t2qVXHH6ZltW7JahVG56w9TkgbEj44s/edit?usp=sharing)
+- [CartSense - Market Basket Recommender Slides](https://docs.google.com/presentation/d/1RXjuwi-5arJ_t2qVXHH6ZltW7JahVG56w9TkgbEj44s/edit?usp=sharing)
 
 
 ## Files
