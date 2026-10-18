@@ -54,7 +54,7 @@ Each recommendation includes confidence, lift, support, matched cart items, and 
 ## Run the interactive demo
 
 ```bash
-uvicorn app:app --reload
+py -m uvicorn app:app --reload
 ```
 
 Open `http://127.0.0.1:8000/` in a browser. The same FastAPI process serves both the checkout-style UI and recommendation endpoints.
