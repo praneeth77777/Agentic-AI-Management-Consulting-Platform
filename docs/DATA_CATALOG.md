@@ -1,10 +1,14 @@
 
-### `DATA_CATALOG.md`
+---
+
+## `docs/DATA_CATALOG.md`
 
 ```markdown
 # Data Catalog
 
 **Last updated:** October 18, 2026
+
+Raw course data and generated retrieval indexes are local-only and must not be committed to Git.
 
 ## Final Index Summary
 
@@ -14,7 +18,7 @@
 | SEC | 2,376 |
 | Clinical | 14,990 |
 | Corporate Responsibility | 1,590 |
-| **Total** | **19,175** |
+| Total | 19,175 |
 
 ## Technology
 
@@ -26,7 +30,7 @@ Indexed Cisco documentation:
 - `catalyst-8300-datasheet.pdf`
 - `cisco-4000-isr-datasheet.pdf`
 
-Chunk count:
+Final chunk count:
 
 ```text
 219
