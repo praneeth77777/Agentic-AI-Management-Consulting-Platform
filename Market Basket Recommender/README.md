@@ -11,6 +11,14 @@ This project implements the retail track as a cart-aware association-rule recomm
 - Returns **no recommendation** when no rule meets the evidence thresholds, rather than forcing an irrelevant suggestion.
 - Tunes rule thresholds on a validation set and reports final metrics on a held-out test set.
 - Exposes the recommender through FastAPI.
+## Video presentation
+
+## Slide deck
+
+A slide deck covering the pipeline, the five model families, the reported results, baseline comparisons, validation, and open research directions.
+
+- [View on Google Slides](https://docs.google.com/presentation/d/17BJrPQ7LwxDE8MK6KnKN7EHg0wbYldsa/edit?usp=sharing)
+
 
 ## Files
 
