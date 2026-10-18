@@ -67,11 +67,3 @@ agentic-consulting-platform/
 - `docs/EVALUATION_PLAN.md` - metrics and test cases
 - `docs/TEAM_WORKFLOW.md` - team responsibilities and Git workflow
 
-## Setup
-
-Setup commands will be added after the repository structure and dependency files are created. Do not invent commands or mark setup complete until they have been tested on both macOS and Windows.
-
-## Security
-
-The original course files, credentials, local models, vector indexes, `.env`, and generated databases must remain outside Git unless the professor explicitly authorizes them.
-
