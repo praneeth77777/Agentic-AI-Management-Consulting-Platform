@@ -1,4 +1,7 @@
-"""Environment-backed application configuration."""
+"""Environment-backed application configuration.
+    This file contains the Settings class which reads exported variables from the environment defined in .env or export commands in bash
+    and uses defaults when they are not defined.
+"""
 
 from __future__ import annotations
 

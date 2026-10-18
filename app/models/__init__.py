@@ -1,3 +1,5 @@
+#Exports the contracts
+
 from app.models.contracts import (
     CandidateRecommendation,
     Citation,

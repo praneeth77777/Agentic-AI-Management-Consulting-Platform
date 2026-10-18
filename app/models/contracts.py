@@ -1,4 +1,7 @@
-"""Validated contracts shared across graph nodes."""
+"""Validated contracts shared across graph nodes.
+    This file defines the Pydantic data structures passed between components. 
+    These contracts prevent agents from returning arbitrary, inconsistent dictionaries.
+"""
 
 from __future__ import annotations
 
@@ -7,7 +10,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
 
-
+# Defines the four accepted domains:
 class Domain(str, Enum):
     TECHNOLOGY = "technology"
     CLINICAL = "clinical"
@@ -15,6 +18,7 @@ class Domain(str, Enum):
     CORPORATE_RESPONSIBILITY = "corporate_responsibility"
 
 
+#calculates confidence
 class ConfidenceComponents(BaseModel):
     """Evidence-derived confidence components.
 
@@ -36,7 +40,7 @@ class ConfidenceComponents(BaseModel):
         )
         return round(max(0.0, min(1.0, value)), 4)
 
-
+# Represents one retrieved document chunk.
 class Evidence(BaseModel):
     evidence_id: str = Field(min_length=1)
     content: str = Field(min_length=1)
@@ -54,7 +58,7 @@ class Evidence(BaseModel):
     ingested_at: str | None = None
     score: float = Field(default=0.0, ge=0.0, le=1.0)
 
-
+# Stores the manager’s classification:
 class RoutingDecision(BaseModel):
     intent: str = Field(min_length=1)
     domains: list[Domain] = Field(default_factory=list)
@@ -87,6 +91,7 @@ class CandidateRecommendation(BaseModel):
     implementation_effort: Literal["low", "medium", "high", "unknown"] = "unknown"
 
 
+#The standard output required from every specialist:
 class SpecialistReport(BaseModel):
     domain: Domain
     summary: str = Field(min_length=1)
@@ -126,6 +131,7 @@ class Citation(BaseModel):
     section: str | None = None
 
 
+#Defines the user-facing final output:
 class ConsultingResponse(BaseModel):
     request_id: str
     answer: str = Field(min_length=1)

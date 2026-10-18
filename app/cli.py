@@ -1,5 +1,17 @@
 """Command-line entry point for the first working prototype."""
-
+"""To inspect graph: python -m app.cli --show-graph """
+"""When running python -m app.cli "Our Cisco router is failing."
+    it:
+    1. Reads configuration.
+    2. Selects a retriever.
+        - If EVIDENCE_JSONL is set: JsonlKeywordRetriever(settings.evidence_jsonl)
+        - If EVIDENCE_JSONL is not set: NullRetriever()
+    3. Creates the Ollama model client.
+    4. Builds the LangGraph workflow.
+    5. Generates a request ID.
+    6. sends the question through the graph.
+    7. Prints the final response as JSON.
+"""
 from __future__ import annotations
 
 import argparse

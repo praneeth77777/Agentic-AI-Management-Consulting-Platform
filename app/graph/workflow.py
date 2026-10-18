@@ -1,4 +1,5 @@
 """LangGraph manager, specialist fan-out, verification, and synthesis."""
+"""=====This file builds the actual LangGraph.====="""
 
 from __future__ import annotations
 
@@ -32,6 +33,8 @@ def build_consulting_graph(
         return {"route": router.route(state["question"])}
 
     def dispatch_specialists(state: ConsultingState):
+        # This function dynamically creates one specialist node for each domain that the manager has routed to. 
+        # If the manager routes to multiple domains, this will fan out to multiple specialist nodes in parallel.
         route = state["route"]
         if not route.domains or route.clarification_required:
             return "clarify"
