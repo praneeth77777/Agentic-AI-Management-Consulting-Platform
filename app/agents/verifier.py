@@ -1,4 +1,5 @@
 """Deterministic evidence checks before manager synthesis."""
+"""This file, verifier, is not an LLM. It uses deterministic Python rules to check specialist reports."""
 
 from __future__ import annotations
 

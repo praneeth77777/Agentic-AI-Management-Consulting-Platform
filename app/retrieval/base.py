@@ -1,5 +1,7 @@
 """Retrieval boundary used by agents.
 
+This file Defines how agents request evidence.
+
 Replace JsonlKeywordRetriever with the planned Chroma + SQLite FTS5 hybrid
 implementation without changing graph or specialist contracts.
 """

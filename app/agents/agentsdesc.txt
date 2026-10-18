@@ -1,0 +1,2 @@
+The agents folder contains four logical roles, but they are not four separately running LLMs. 
+They share one Ollama model, while prompts, retrieved evidence, and Python validation make them behave differently.

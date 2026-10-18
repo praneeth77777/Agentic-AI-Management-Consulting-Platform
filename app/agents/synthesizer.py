@@ -1,4 +1,5 @@
 """Manager synthesis that exposes recommendations, uncertainty, and citations."""
+"""This file, synthesizer, acts as the Management Consulting Manager after specialists finish."""
 
 from __future__ import annotations
 

@@ -1,4 +1,5 @@
 """Deterministic-first domain routing with an optional model fallback."""
+"""This file decides which specialist agents should receive a question."""
 
 from __future__ import annotations
 

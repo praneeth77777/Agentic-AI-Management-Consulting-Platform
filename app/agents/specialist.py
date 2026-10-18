@@ -1,4 +1,5 @@
 """Evidence-grounded specialist shared by all four domain configurations."""
+"""This file implements all four specialists using one shared class."""
 
 from __future__ import annotations
 
