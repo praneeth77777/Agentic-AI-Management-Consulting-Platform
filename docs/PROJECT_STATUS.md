@@ -1,98 +1,99 @@
+
+---
+
+## `docs/PROJECT_STATUS.md`
+
+```markdown
 # Project Status
 
-Update this checklist after every pull request. Link completed items to the relevant issue or pull request after the repository exists.
-
-## Governance
-
-- [x] Challenge selected
-- [x] Zero-cost requirement recorded
-- [x] Primary framework selected
-- [x] Four-agent target recorded
-- [x] Documentation continuity process defined
-- [ ] Private GitHub repository created
-- [ ] Main branch protection configured
-- [ ] GitHub issue board created
-- [ ] Team ownership assigned
+**Last updated:** October 18, 2026  
+**Overall status:** Core MVP implementation complete
 
 ## Environment
 
-- [ ] Python 3.11 verified on macOS
-- [ ] Python 3.11 verified on Windows
-- [ ] Virtual environment instructions tested
-- [ ] Ollama installed on integration computer
-- [ ] Local model selected
-- [ ] Embedding model selected
-- [ ] Dependency lock file created
-- [ ] `.env.example` validated
+- [x] Python 3.11 configured
+- [x] Virtual environment configured
+- [x] Ollama configured
+- [x] `qwen2.5:7b` configured
+- [x] `nomic-embed-text` configured
+- [x] FastAPI working
+- [x] Streamlit working
 
 ## Data
 
-- [x] Supplied archive inventoried
-- [ ] Source files copied into ignored local data directory
-- [ ] PDF extraction validated
-- [ ] CSV loading validated
-- [ ] Metadata schema implemented
-- [ ] Technology collection ingested
-- [ ] SEC collection ingested
-- [ ] Clinical collection ingested
-- [ ] Corporate Responsibility collection ingested
-- [ ] Data catalog updated with chunk counts
+- [x] Technology data ingested
+- [x] SEC data ingested
+- [x] Clinical data ingested
+- [x] Corporate Responsibility data ingested
+
+| Domain | Chunks |
+|---|---:|
+| Technology | 219 |
+| SEC | 2,376 |
+| Clinical | 14,990 |
+| Corporate Responsibility | 1,590 |
+| Total | 19,175 |
 
 ## Retrieval
 
-- [ ] Chroma persistence configured
-- [ ] SQLite FTS5 index configured
-- [ ] Vector search implemented
-- [ ] Keyword search implemented
-- [ ] Results fused and reranked
-- [ ] Domain filters tested
-- [ ] Page-level citations verified
-- [ ] Empty and conflicting results handled
+- [x] Chroma semantic retrieval
+- [x] SQLite FTS5 retrieval
+- [x] Hybrid retrieval
+- [x] Domain filtering
+- [x] SEC-specific reranking
+- [x] Stable evidence IDs
+- [x] Metadata handling
+- [x] Safe FTS query construction
 
-## Agent Workflow
+## Agents
 
-- [ ] Shared graph state defined
-- [ ] Routing contract defined
-- [ ] Deterministic router implemented
-- [ ] Manager node implemented
-- [ ] Technology Agent implemented
-- [ ] SEC Agent implemented
-- [ ] Technology and SEC integration tested
-- [ ] Clinical Agent implemented
-- [ ] Corporate Responsibility Agent implemented
-- [ ] Evidence verifier implemented
-- [ ] Recommendation synthesizer implemented
-- [ ] Clarification and abstention paths tested
+- [x] Manager/router
+- [x] Technology Agent
+- [x] SEC Agent
+- [x] Clinical Agent
+- [x] Corporate Responsibility Agent
+- [x] Multi-domain specialist isolation
+- [x] Entity extraction
+- [x] Whole-word and phrase routing
+
+## Verification and Synthesis
+
+- [x] Evidence verifier
+- [x] Unsupported evidence filtering
+- [x] Recommendation synthesizer
+- [x] Real retrieved evidence attached
+- [x] Risks
+- [x] Uncertainty
+- [x] Next actions
+- [x] KPIs
+- [x] Human-review propagation
 
 ## Application
 
-- [ ] FastAPI health endpoint
-- [ ] FastAPI consulting endpoint
-- [ ] Request and response validation
-- [ ] Streamlit question interface
-- [ ] Evidence display
-- [ ] Agent-routing display
-- [ ] Confidence and uncertainty display
-- [ ] Error handling
+- [x] FastAPI `/health`
+- [x] FastAPI `/v1/consult`
+- [x] Streamlit interface
+- [x] Structured request/response models
+- [x] Routing display
+- [x] Evidence display
+- [x] Recommendations
+- [x] Confidence
+- [x] Risks
+- [x] Uncertainty
+- [x] Next actions
 
-## Evaluation
+## Validated Scenarios
 
-- [ ] Routing dataset created
-- [ ] Retrieval relevance labels created
-- [ ] Citation checks implemented
-- [ ] Recommendation rubric created
-- [ ] Abstention tests created
-- [ ] Latency captured
-- [ ] Evaluation report generated
+- [x] Technology-only
+- [x] SEC-only
+- [x] Clinical-only
+- [x] Corporate Responsibility-only
+- [x] Technology + SEC
+- [x] Full four-domain workflow
 
-## Demonstration
+## Automated Tests
 
-- [ ] Technology scenario ready
-- [ ] SEC scenario ready
-- [ ] Clinical scenario ready
-- [ ] Corporate Responsibility scenario ready
-- [ ] Technology and SEC cross-domain scenario ready
-- [ ] Unsupported-question scenario ready
-- [ ] Demonstration script rehearsed
-- [ ] Architecture and results presentation ready
+Latest result:
 
+```text
+8 passed, 1 warning
