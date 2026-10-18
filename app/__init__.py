@@ -1,0 +1,2 @@
+"""Agentic management consulting prototype."""
+

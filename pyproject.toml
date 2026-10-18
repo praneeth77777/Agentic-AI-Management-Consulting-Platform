@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-consulting-platform"
+version = "0.1.0"
+description = "Local LangGraph and Ollama multi-agent consulting prototype"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "langgraph>=1.2,<2",
+  "langchain-ollama>=1.1,<2",
+  "pydantic>=2.9,<3",
+  "socksio>=1,<2",
+  "typing-extensions>=4.12,<5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+consult = "app.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+

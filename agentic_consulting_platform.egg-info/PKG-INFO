@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: agentic-consulting-platform
+Version: 0.1.0
+Summary: Local LangGraph and Ollama multi-agent consulting prototype
+Requires-Python: <3.13,>=3.11
+Requires-Dist: langgraph<2,>=1.2
+Requires-Dist: langchain-ollama<2,>=1.1
+Requires-Dist: pydantic<3,>=2.9
+Requires-Dist: socksio<2,>=1
+Requires-Dist: typing-extensions<5,>=4.12
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=8; extra == "dev"

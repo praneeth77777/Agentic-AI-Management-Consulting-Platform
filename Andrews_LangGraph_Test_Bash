@@ -1,0 +1,6 @@
+pip install -e ".[dev]"
+
+export OLLAMA_MODEL=<model-from-ollama-list>
+pytest
+python -m app.cli --show-graph
+python -m app.cli "Our Cisco router has intermittent connectivity failures."
