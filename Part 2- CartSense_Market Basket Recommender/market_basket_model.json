@@ -1,0 +1,2578 @@
+{
+  "products": [
+    "Axis M3046-V Network Camera (SKU: 0806-001)",
+    "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+    "Axis P3367-VE Network Camera (SKU: 0407-001)",
+    "Bosch B5512 Control Panel (SKU: B5512)",
+    "Bosch B810 Wireless Receiver (SKU: B810)",
+    "Bosch D7050 Detector (SKU: D7050)",
+    "Bosch DS160 Detector (SKU: DS160)",
+    "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+    "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)",
+    "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+    "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+    "DSC PG9914 Motion Detector (SKU: PG9914)",
+    "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)",
+    "DSC WS4916 Smoke Detector (SKU: WS4916)",
+    "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)",
+    "DSC WS4939 Wireless Key (SKU: WS4939)",
+    "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+    "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+    "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+    "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+    "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)",
+    "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)",
+    "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)",
+    "GE Interlogix NX-8 Control Panel (SKU: NX-8)",
+    "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+    "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+    "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+    "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)",
+    "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+    "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+    "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)",
+    "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+    "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)",
+    "Honeywell 6160 Keypad (SKU: 6160)",
+    "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+    "Honeywell HEN08104 NVR (SKU: HEN08104)",
+    "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+    "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)",
+    "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+    "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+  ],
+  "rules": [
+    {
+      "antecedent": [
+        "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.015294117647058824,
+      "confidence": 0.19696969696969696,
+      "lift": 2.174340810704447,
+      "antecedent_count": 66,
+      "joint_count": 13,
+      "score": 0.19335456110900417
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)",
+      "support": 0.015294117647058824,
+      "confidence": 0.16883116883116883,
+      "lift": 2.174340810704447,
+      "antecedent_count": 77,
+      "joint_count": 13,
+      "score": 0.16573248095057502
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.01411764705882353,
+      "confidence": 0.18181818181818182,
+      "lift": 1.9318181818181819,
+      "antecedent_count": 66,
+      "joint_count": 12,
+      "score": 0.16430979745952076
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)"
+      ],
+      "consequent": "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)",
+      "support": 0.01411764705882353,
+      "confidence": 0.18181818181818182,
+      "lift": 1.756198347107438,
+      "antecedent_count": 66,
+      "joint_count": 12,
+      "score": 0.15487387761862226
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "DSC WS4939 Wireless Key (SKU: WS4939)",
+      "support": 0.01647058823529412,
+      "confidence": 0.1728395061728395,
+      "lift": 1.728395061728395,
+      "antecedent_count": 81,
+      "joint_count": 14,
+      "score": 0.14891553973381508
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.01411764705882353,
+      "confidence": 0.1643835616438356,
+      "lift": 1.8385003604902665,
+      "antecedent_count": 73,
+      "joint_count": 12,
+      "score": 0.1440866390586055
+    },
+    {
+      "antecedent": [
+        "DSC WS4939 Wireless Key (SKU: WS4939)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.01647058823529412,
+      "confidence": 0.16470588235294117,
+      "lift": 1.7283950617283952,
+      "antecedent_count": 85,
+      "joint_count": 14,
+      "score": 0.1419077496286944
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.01411764705882353,
+      "confidence": 0.1643835616438356,
+      "lift": 1.7465753424657533,
+      "antecedent_count": 73,
+      "joint_count": 12,
+      "score": 0.13953991680800845
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15789473684210525,
+      "lift": 1.8385003604902668,
+      "antecedent_count": 76,
+      "joint_count": 12,
+      "score": 0.13839900856945003
+    },
+    {
+      "antecedent": [
+        "Honeywell 6160 Keypad (SKU: 6160)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.01411764705882353,
+      "confidence": 0.16,
+      "lift": 1.7662337662337662,
+      "antecedent_count": 75,
+      "joint_count": 12,
+      "score": 0.13677757662563553
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15,
+      "lift": 1.9318181818181817,
+      "antecedent_count": 80,
+      "joint_count": 12,
+      "score": 0.1355555829041046
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15584415584415584,
+      "lift": 1.7662337662337662,
+      "antecedent_count": 77,
+      "joint_count": 12,
+      "score": 0.13322491229769695
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.01411764705882353,
+      "confidence": 0.16901408450704225,
+      "lift": 1.5447523852794185,
+      "antecedent_count": 71,
+      "joint_count": 12,
+      "score": 0.13263295424246607
+    },
+    {
+      "antecedent": [
+        "Bosch B5512 Control Panel (SKU: B5512)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.015294117647058824,
+      "confidence": 0.16049382716049382,
+      "lift": 1.604938271604938,
+      "antecedent_count": 81,
+      "joint_count": 13,
+      "score": 0.1305843865232763
+    },
+    {
+      "antecedent": [
+        "Bosch F220-B6 Detector Base (SKU: F220-B6)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.012941176470588235,
+      "confidence": 0.1527777777777778,
+      "lift": 1.7789193302891935,
+      "antecedent_count": 72,
+      "joint_count": 11,
+      "score": 0.12947139681514705
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.011764705882352941,
+      "confidence": 0.15384615384615385,
+      "lift": 1.791359325605901,
+      "antecedent_count": 65,
+      "joint_count": 10,
+      "score": 0.1289472563307468
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.15942028985507245,
+      "lift": 1.6326174262266457,
+      "antecedent_count": 69,
+      "joint_count": 11,
+      "score": 0.1279515904122848
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+      "support": 0.012941176470588235,
+      "confidence": 0.1506849315068493,
+      "lift": 1.7789193302891932,
+      "antecedent_count": 73,
+      "joint_count": 11,
+      "score": 0.12769781603685731
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15,
+      "lift": 1.7465753424657535,
+      "antecedent_count": 80,
+      "joint_count": 12,
+      "score": 0.1273301740873077
+    },
+    {
+      "antecedent": [
+        "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.01411764705882353,
+      "confidence": 0.1643835616438356,
+      "lift": 1.5024304021210781,
+      "antecedent_count": 73,
+      "joint_count": 12,
+      "score": 0.1266829445811792
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15584415584415584,
+      "lift": 1.5959943670787045,
+      "antecedent_count": 77,
+      "joint_count": 12,
+      "score": 0.12490828104123962
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "Bosch B5512 Control Panel (SKU: B5512)",
+      "support": 0.015294117647058824,
+      "confidence": 0.15294117647058825,
+      "lift": 1.6049382716049385,
+      "antecedent_count": 85,
+      "joint_count": 13,
+      "score": 0.12443923892218102
+    },
+    {
+      "antecedent": [
+        "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+      ],
+      "consequent": "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14925373134328357,
+      "lift": 1.669285153181461,
+      "antecedent_count": 67,
+      "joint_count": 10,
+      "score": 0.1196485198012612
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15789473684210525,
+      "lift": 1.4431239388794568,
+      "antecedent_count": 76,
+      "joint_count": 12,
+      "score": 0.11850051081760409
+    },
+    {
+      "antecedent": [
+        "Axis P3225-LVE Network Camera (SKU: 0935-001)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.1506849315068493,
+      "lift": 1.5431589371183363,
+      "antecedent_count": 73,
+      "joint_count": 11,
+      "score": 0.11662112390810855
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.1506849315068493,
+      "lift": 1.5431589371183363,
+      "antecedent_count": 73,
+      "joint_count": 11,
+      "score": 0.11662112390810855
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)"
+      ],
+      "consequent": "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)",
+      "support": 0.01411764705882353,
+      "confidence": 0.13636363636363635,
+      "lift": 1.7561983471074378,
+      "antecedent_count": 88,
+      "joint_count": 12,
+      "score": 0.11615540821396668
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14492753623188406,
+      "lift": 1.664708186447317,
+      "antecedent_count": 69,
+      "joint_count": 10,
+      "score": 0.11597736979637076
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.01411764705882353,
+      "confidence": 0.14457831325301204,
+      "lift": 1.5959943670787042,
+      "antecedent_count": 83,
+      "joint_count": 12,
+      "score": 0.11587876674910179
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "DSC WS4939 Wireless Key (SKU: WS4939)",
+      "support": 0.01411764705882353,
+      "confidence": 0.15,
+      "lift": 1.4999999999999998,
+      "antecedent_count": 80,
+      "joint_count": 12,
+      "score": 0.11547572967205455
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Axis M3046-V Network Camera (SKU: 0806-001)",
+      "support": 0.011764705882352941,
+      "confidence": 0.136986301369863,
+      "lift": 1.7913593256059006,
+      "antecedent_count": 73,
+      "joint_count": 10,
+      "score": 0.11481605015751424
+    },
+    {
+      "antecedent": [
+        "Hanwha QND-6010R Network Camera (SKU: QND-6010R)"
+      ],
+      "consequent": "DSC WS4939 Wireless Key (SKU: WS4939)",
+      "support": 0.01411764705882353,
+      "confidence": 0.14634146341463414,
+      "lift": 1.4634146341463412,
+      "antecedent_count": 82,
+      "joint_count": 12,
+      "score": 0.11084666395724713
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14285714285714285,
+      "lift": 1.5769944341372912,
+      "antecedent_count": 70,
+      "joint_count": 10,
+      "score": 0.11041643901951902
+    },
+    {
+      "antecedent": [
+        "Honeywell 6160 Keypad (SKU: 6160)"
+      ],
+      "consequent": "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)",
+      "support": 0.012941176470588235,
+      "confidence": 0.14666666666666667,
+      "lift": 1.4666666666666666,
+      "antecedent_count": 75,
+      "joint_count": 11,
+      "score": 0.10979735926542873
+    },
+    {
+      "antecedent": [
+        "DSC WS4939 Wireless Key (SKU: WS4939)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.01411764705882353,
+      "confidence": 0.1411764705882353,
+      "lift": 1.5,
+      "antecedent_count": 85,
+      "joint_count": 12,
+      "score": 0.10868303969134548
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.13513513513513514,
+      "lift": 1.664708186447317,
+      "antecedent_count": 74,
+      "joint_count": 10,
+      "score": 0.10814106102634571
+    },
+    {
+      "antecedent": [
+        "DSC WS4939 Wireless Key (SKU: WS4939)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.01411764705882353,
+      "confidence": 0.1411764705882353,
+      "lift": 1.4634146341463414,
+      "antecedent_count": 85,
+      "joint_count": 12,
+      "score": 0.10693442875875607
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.01411764705882353,
+      "confidence": 0.14814814814814814,
+      "lift": 1.3540422142572681,
+      "antecedent_count": 81,
+      "joint_count": 12,
+      "score": 0.10656242735790188
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13253012048192772,
+      "lift": 1.6326174262266457,
+      "antecedent_count": 83,
+      "joint_count": 11,
+      "score": 0.10636939443912832
+    },
+    {
+      "antecedent": [
+        "Bosch F220-B6 Detector Base (SKU: F220-B6)"
+      ],
+      "consequent": "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)",
+      "support": 0.011764705882352941,
+      "confidence": 0.1388888888888889,
+      "lift": 1.5533625730994152,
+      "antecedent_count": 72,
+      "joint_count": 10,
+      "score": 0.10630458279754304
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.010588235294117647,
+      "confidence": 0.14285714285714285,
+      "lift": 1.5178571428571428,
+      "antecedent_count": 63,
+      "joint_count": 9,
+      "score": 0.10576766666944677
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)"
+      ],
+      "consequent": "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)",
+      "support": 0.011764705882352941,
+      "confidence": 0.13157894736842105,
+      "lift": 1.669285153181461,
+      "antecedent_count": 76,
+      "joint_count": 10,
+      "score": 0.10547961614058554
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14084507042253522,
+      "lift": 1.4964788732394367,
+      "antecedent_count": 71,
+      "joint_count": 10,
+      "score": 0.10521090759290289
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.011764705882352941,
+      "confidence": 0.136986301369863,
+      "lift": 1.5320836337418888,
+      "antecedent_count": 73,
+      "joint_count": 10,
+      "score": 0.1039123360146346
+    },
+    {
+      "antecedent": [
+        "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14084507042253522,
+      "lift": 1.4599793885262797,
+      "antecedent_count": 71,
+      "joint_count": 10,
+      "score": 0.10351715821785896
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14285714285714285,
+      "lift": 1.4285714285714284,
+      "antecedent_count": 70,
+      "joint_count": 10,
+      "score": 0.10349714642349778
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13253012048192772,
+      "lift": 1.5431589371183365,
+      "antecedent_count": 83,
+      "joint_count": 11,
+      "score": 0.10257038608785454
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13253012048192772,
+      "lift": 1.5431589371183365,
+      "antecedent_count": 83,
+      "joint_count": 11,
+      "score": 0.10257038608785454
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13432835820895522,
+      "lift": 1.5640973216111225,
+      "antecedent_count": 67,
+      "joint_count": 9,
+      "score": 0.10141317724940287
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.01411764705882353,
+      "confidence": 0.12903225806451613,
+      "lift": 1.5447523852794185,
+      "antecedent_count": 93,
+      "joint_count": 12,
+      "score": 0.10125741667973216
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)"
+      ],
+      "consequent": "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14084507042253522,
+      "lift": 1.408450704225352,
+      "antecedent_count": 71,
+      "joint_count": 10,
+      "score": 0.10108269985513521
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)"
+      ],
+      "consequent": "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+      "support": 0.011764705882352941,
+      "confidence": 0.13157894736842105,
+      "lift": 1.5533625730994152,
+      "antecedent_count": 76,
+      "joint_count": 10,
+      "score": 0.10070960475556708
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12987012987012986,
+      "lift": 1.5769944341372912,
+      "antecedent_count": 77,
+      "joint_count": 10,
+      "score": 0.10037858092683548
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.011764705882352941,
+      "confidence": 0.14492753623188406,
+      "lift": 1.3246065139473275,
+      "antecedent_count": 69,
+      "joint_count": 10,
+      "score": 0.09981975804170917
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.011764705882352941,
+      "confidence": 0.13157894736842105,
+      "lift": 1.532083633741889,
+      "antecedent_count": 76,
+      "joint_count": 10,
+      "score": 0.09981053327721481
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+      "support": 0.01411764705882353,
+      "confidence": 0.12903225806451613,
+      "lift": 1.5024304021210784,
+      "antecedent_count": 93,
+      "joint_count": 12,
+      "score": 0.0994393005852267
+    },
+    {
+      "antecedent": [
+        "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.136986301369863,
+      "lift": 1.4199799532241897,
+      "antecedent_count": 73,
+      "joint_count": 10,
+      "score": 0.09884745358451845
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13432835820895522,
+      "lift": 1.5023566378633149,
+      "antecedent_count": 67,
+      "joint_count": 9,
+      "score": 0.09878808981584034
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13580246913580246,
+      "lift": 1.3907481778967723,
+      "antecedent_count": 81,
+      "joint_count": 11,
+      "score": 0.09814414798672716
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13636363636363635,
+      "lift": 1.430976430976431,
+      "antecedent_count": 66,
+      "joint_count": 9,
+      "score": 0.09712075515799112
+    },
+    {
+      "antecedent": [
+        "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.012941176470588235,
+      "confidence": 0.12941176470588237,
+      "lift": 1.4666666666666668,
+      "antecedent_count": 85,
+      "joint_count": 11,
+      "score": 0.09688002288126067
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.01411764705882353,
+      "confidence": 0.12903225806451613,
+      "lift": 1.4431239388794566,
+      "antecedent_count": 93,
+      "joint_count": 12,
+      "score": 0.09683912711976247
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13253012048192772,
+      "lift": 1.3907481778967725,
+      "antecedent_count": 83,
+      "joint_count": 11,
+      "score": 0.09577922875813136
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13432835820895522,
+      "lift": 1.4272388059701493,
+      "antecedent_count": 67,
+      "joint_count": 9,
+      "score": 0.09550547200101782
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13432835820895522,
+      "lift": 1.4096185737976783,
+      "antecedent_count": 67,
+      "joint_count": 9,
+      "score": 0.09472076919589785
+    },
+    {
+      "antecedent": [
+        "Bosch B5512 Control Panel (SKU: B5512)"
+      ],
+      "consequent": "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)",
+      "support": 0.012941176470588235,
+      "confidence": 0.13580246913580246,
+      "lift": 1.3117283950617282,
+      "antecedent_count": 81,
+      "joint_count": 11,
+      "score": 0.09435951224407475
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12857142857142856,
+      "lift": 1.49706457925636,
+      "antecedent_count": 70,
+      "joint_count": 9,
+      "score": 0.09433607331822844
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "DSC WS4939 Wireless Key (SKU: WS4939)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13636363636363635,
+      "lift": 1.3636363636363635,
+      "antecedent_count": 66,
+      "joint_count": 9,
+      "score": 0.09404936936106853
+    },
+    {
+      "antecedent": [
+        "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.5175560404681612,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.09383802822646405
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)"
+      ],
+      "consequent": "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.5175560404681612,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.09383802822646405
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.011764705882352941,
+      "confidence": 0.125,
+      "lift": 1.4964788732394367,
+      "antecedent_count": 80,
+      "joint_count": 10,
+      "score": 0.0933746804887013
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.5640973216111222,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.09307784761246565
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.01411764705882353,
+      "confidence": 0.12903225806451613,
+      "lift": 1.3540422142572681,
+      "antecedent_count": 93,
+      "joint_count": 12,
+      "score": 0.09281243673107585
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)",
+      "support": 0.012941176470588235,
+      "confidence": 0.1375,
+      "lift": 1.256720430107527,
+      "antecedent_count": 80,
+      "joint_count": 11,
+      "score": 0.0927933455665944
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12857142857142856,
+      "lift": 1.4571428571428569,
+      "antecedent_count": 70,
+      "joint_count": 9,
+      "score": 0.09267466575652877
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12987012987012986,
+      "lift": 1.3798701298701297,
+      "antecedent_count": 77,
+      "joint_count": 10,
+      "score": 0.09194026341556696
+    },
+    {
+      "antecedent": [
+        "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+      ],
+      "consequent": "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13432835820895522,
+      "lift": 1.3432835820895521,
+      "antecedent_count": 67,
+      "joint_count": 9,
+      "score": 0.09171422947616276
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.49706457925636,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.09045924838734234
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12698412698412698,
+      "lift": 1.4785823005001086,
+      "antecedent_count": 63,
+      "joint_count": 8,
+      "score": 0.09041880182348727
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.13157894736842105,
+      "lift": 1.3157894736842104,
+      "antecedent_count": 76,
+      "joint_count": 10,
+      "score": 0.09021757084693169
+    },
+    {
+      "antecedent": [
+        "Hanwha QND-6010R Network Camera (SKU: QND-6010R)"
+      ],
+      "consequent": "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12195121951219512,
+      "lift": 1.4599793885262797,
+      "antecedent_count": 82,
+      "joint_count": 10,
+      "score": 0.08963071016424373
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12698412698412698,
+      "lift": 1.4586014586014586,
+      "antecedent_count": 63,
+      "joint_count": 8,
+      "score": 0.08961251490580954
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)"
+      ],
+      "consequent": "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.5610651974288337,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.08942166112287242
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.5610651974288337,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.08942166112287242
+    },
+    {
+      "antecedent": [
+        "DSC WS4939 Wireless Key (SKU: WS4939)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.012941176470588235,
+      "confidence": 0.12941176470588237,
+      "lift": 1.2941176470588236,
+      "antecedent_count": 85,
+      "joint_count": 11,
+      "score": 0.08909850410631996
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "DSC WS4939 Wireless Key (SKU: WS4939)",
+      "support": 0.012941176470588235,
+      "confidence": 0.12941176470588237,
+      "lift": 1.2941176470588236,
+      "antecedent_count": 85,
+      "joint_count": 11,
+      "score": 0.08909850410631996
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "GE Interlogix NX-8 Control Panel (SKU: NX-8)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12307692307692308,
+      "lift": 1.5161649944258642,
+      "antecedent_count": 65,
+      "joint_count": 8,
+      "score": 0.08908967451356596
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.011764705882352941,
+      "confidence": 0.125,
+      "lift": 1.37987012987013,
+      "antecedent_count": 80,
+      "joint_count": 10,
+      "score": 0.08849250353748322
+    },
+    {
+      "antecedent": [
+        "DSC PG9914 Motion Detector (SKU: PG9914)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12658227848101267,
+      "lift": 1.3449367088607596,
+      "antecedent_count": 79,
+      "joint_count": 10,
+      "score": 0.08808431382625767
+    },
+    {
+      "antecedent": [
+        "Hanwha QND-6010R Network Camera (SKU: QND-6010R)"
+      ],
+      "consequent": "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12195121951219512,
+      "lift": 1.41997995322419,
+      "antecedent_count": 82,
+      "joint_count": 10,
+      "score": 0.08799834282524206
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.010588235294117647,
+      "confidence": 0.13043478260869565,
+      "lift": 1.3043478260869563,
+      "antecedent_count": 69,
+      "joint_count": 9,
+      "score": 0.08730354890048402
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-50022-A3 IP Camera (SKU: NDN-50022-A3)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.5023566378633149,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.08708950023238556
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "DSC PG9914 Motion Detector (SKU: PG9914)",
+      "support": 0.011764705882352941,
+      "confidence": 0.125,
+      "lift": 1.3449367088607596,
+      "antecedent_count": 80,
+      "joint_count": 10,
+      "score": 0.08698325990342944
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.4931927975406236,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.08686771770679869
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)"
+      ],
+      "consequent": "Bosch B5512 Control Panel (SKU: B5512)",
+      "support": 0.012941176470588235,
+      "confidence": 0.125,
+      "lift": 1.3117283950617284,
+      "antecedent_count": 88,
+      "joint_count": 11,
+      "score": 0.08685364195193246
+    },
+    {
+      "antecedent": [
+        "Honeywell 6160 Keypad (SKU: 6160)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12,
+      "lift": 1.457142857142857,
+      "antecedent_count": 75,
+      "joint_count": 9,
+      "score": 0.08649635470609354
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12987012987012986,
+      "lift": 1.254427390791027,
+      "antecedent_count": 77,
+      "joint_count": 10,
+      "score": 0.08619828759205451
+    },
+    {
+      "antecedent": [
+        "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.3788752703676999,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.08566620000649143
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.3788752703676999,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.08566620000649143
+    },
+    {
+      "antecedent": [
+        "Bosch F220-B6 Detector Base (SKU: F220-B6)"
+      ],
+      "consequent": "DSC PG9914 Motion Detector (SKU: PG9914)",
+      "support": 0.010588235294117647,
+      "confidence": 0.125,
+      "lift": 1.3449367088607596,
+      "antecedent_count": 72,
+      "joint_count": 9,
+      "score": 0.08541586557888914
+    },
+    {
+      "antecedent": [
+        "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11764705882352941,
+      "lift": 1.4285714285714286,
+      "antecedent_count": 85,
+      "joint_count": 10,
+      "score": 0.08523294411346877
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Bosch D7050 Detector (SKU: D7050)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.2981503478703547,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.0845705825049442
+    },
+    {
+      "antecedent": [
+        "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.2981503478703547,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.0845705825049442
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)"
+      ],
+      "consequent": "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.430976430976431,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.08446477093235308
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11764705882352941,
+      "lift": 1.4084507042253522,
+      "antecedent_count": 85,
+      "joint_count": 10,
+      "score": 0.08443378458487766
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.125,
+      "lift": 1.280120481927711,
+      "antecedent_count": 80,
+      "joint_count": 10,
+      "score": 0.08412244702691113
+    },
+    {
+      "antecedent": [
+        "GE Interlogix NX-8 Control Panel (SKU: NX-8)"
+      ],
+      "consequent": "Axis M3046-V Network Camera (SKU: 0806-001)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11594202898550725,
+      "lift": 1.516164994425864,
+      "antecedent_count": 69,
+      "joint_count": 8,
+      "score": 0.08392505570118532
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.4113740141137403,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.0836949226575472
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1125,
+      "lift": 1.517857142857143,
+      "antecedent_count": 80,
+      "joint_count": 9,
+      "score": 0.08329203750218936
+    },
+    {
+      "antecedent": [
+        "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.2676056338028168,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.08321070045998002
+    },
+    {
+      "antecedent": [
+        "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11940298507462686,
+      "lift": 1.4294723565272232,
+      "antecedent_count": 67,
+      "joint_count": 8,
+      "score": 0.0831461316185427
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11594202898550725,
+      "lift": 1.4931927975406236,
+      "antecedent_count": 69,
+      "joint_count": 8,
+      "score": 0.08309086041519874
+    },
+    {
+      "antecedent": [
+        "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12345679012345678,
+      "lift": 1.279735019572418,
+      "antecedent_count": 81,
+      "joint_count": 10,
+      "score": 0.08306685591842176
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12162162162162163,
+      "lift": 1.3425763425763426,
+      "antecedent_count": 74,
+      "joint_count": 9,
+      "score": 0.08300912336120511
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.3788752703677,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.0822846394799194
+    },
+    {
+      "antecedent": [
+        "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.3788752703677,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.0822846394799194
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.2937595129375952,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.08206453717053411
+    },
+    {
+      "antecedent": [
+        "Hanwha QND-6010R Network Camera (SKU: QND-6010R)"
+      ],
+      "consequent": "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12195121951219512,
+      "lift": 1.279735019572418,
+      "antecedent_count": 82,
+      "joint_count": 10,
+      "score": 0.08205384548039223
+    },
+    {
+      "antecedent": [
+        "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+      ],
+      "consequent": "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11940298507462686,
+      "lift": 1.3903087303209978,
+      "antecedent_count": 67,
+      "joint_count": 8,
+      "score": 0.08162388983210193
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1267605633802817,
+      "lift": 1.2243918053777207,
+      "antecedent_count": 71,
+      "joint_count": 9,
+      "score": 0.08125515446666043
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "Axis P3367-VE Network Camera (SKU: 0407-001)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12048192771084337,
+      "lift": 1.2801204819277108,
+      "antecedent_count": 83,
+      "joint_count": 10,
+      "score": 0.08108187665244446
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12345679012345678,
+      "lift": 1.2345679012345678,
+      "antecedent_count": 81,
+      "joint_count": 10,
+      "score": 0.08104967186922205
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12307692307692308,
+      "lift": 1.3076923076923077,
+      "antecedent_count": 65,
+      "joint_count": 8,
+      "score": 0.08073931348832883
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11764705882352941,
+      "lift": 1.3157894736842104,
+      "antecedent_count": 85,
+      "joint_count": 10,
+      "score": 0.08066512216902127
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12307692307692308,
+      "lift": 1.291547958214625,
+      "antecedent_count": 65,
+      "joint_count": 8,
+      "score": 0.08006149067852689
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12307692307692308,
+      "lift": 1.291547958214625,
+      "antecedent_count": 65,
+      "joint_count": 8,
+      "score": 0.08006149067852689
+    },
+    {
+      "antecedent": [
+        "Axis P3367-VE Network Camera (SKU: 0407-001)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1125,
+      "lift": 1.4272388059701493,
+      "antecedent_count": 80,
+      "joint_count": 9,
+      "score": 0.07998583280085242
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.012941176470588235,
+      "confidence": 0.11827956989247312,
+      "lift": 1.256720430107527,
+      "antecedent_count": 93,
+      "joint_count": 11,
+      "score": 0.07982223274545755
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11688311688311688,
+      "lift": 1.3425763425763426,
+      "antecedent_count": 77,
+      "joint_count": 9,
+      "score": 0.0797750016718075
+    },
+    {
+      "antecedent": [
+        "Axis P3225-LVE Network Camera (SKU: 0935-001)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1232876712328767,
+      "lift": 1.232876712328767,
+      "antecedent_count": 73,
+      "joint_count": 9,
+      "score": 0.07940533045428656
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12307692307692308,
+      "lift": 1.2757973733583492,
+      "antecedent_count": 65,
+      "joint_count": 8,
+      "score": 0.07939558226757465
+    },
+    {
+      "antecedent": [
+        "Hanwha QND-6010R Network Camera (SKU: QND-6010R)"
+      ],
+      "consequent": "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.12195121951219512,
+      "lift": 1.2195121951219512,
+      "antecedent_count": 82,
+      "joint_count": 10,
+      "score": 0.07938810592970255
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.3072453861927544,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.07938174827516419
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1111111111111111,
+      "lift": 1.4309764309764308,
+      "antecedent_count": 81,
+      "joint_count": 9,
+      "score": 0.0791354301287335
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.2878787878787878,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.07869606542220296
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.429472356527223,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.07846184251327268
+    },
+    {
+      "antecedent": [
+        "Honeywell 6160 Keypad (SKU: 6160)"
+      ],
+      "consequent": "Bosch B5512 Control Panel (SKU: B5512)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12,
+      "lift": 1.2592592592592593,
+      "antecedent_count": 75,
+      "joint_count": 9,
+      "score": 0.07841800812067795
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11688311688311688,
+      "lift": 1.3072453861927544,
+      "antecedent_count": 77,
+      "joint_count": 9,
+      "score": 0.07835081647938283
+    },
+    {
+      "antecedent": [
+        "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1111111111111111,
+      "lift": 1.409618573797678,
+      "antecedent_count": 81,
+      "joint_count": 9,
+      "score": 0.07834927822376735
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.009411764705882352,
+      "confidence": 0.12121212121212122,
+      "lift": 1.2719790497568275,
+      "antecedent_count": 66,
+      "joint_count": 8,
+      "score": 0.07803294898544114
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.4785823005001086,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.07803266458739312
+    },
+    {
+      "antecedent": [
+        "DSC PG9914 Motion Detector (SKU: PG9914)"
+      ],
+      "consequent": "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11392405063291139,
+      "lift": 1.3449367088607596,
+      "antecedent_count": 79,
+      "joint_count": 9,
+      "score": 0.07784737116050655
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11594202898550725,
+      "lift": 1.3500099265435777,
+      "antecedent_count": 69,
+      "joint_count": 8,
+      "score": 0.07771151785070307
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12162162162162163,
+      "lift": 1.2162162162162162,
+      "antecedent_count": 74,
+      "joint_count": 9,
+      "score": 0.07760195988060904
+    },
+    {
+      "antecedent": [
+        "Bosch F220-B6 Detector Base (SKU: F220-B6)"
+      ],
+      "consequent": "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1111111111111111,
+      "lift": 1.4309764309764308,
+      "antecedent_count": 72,
+      "joint_count": 8,
+      "score": 0.07742604002132364
+    },
+    {
+      "antecedent": [
+        "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)"
+      ],
+      "consequent": "DSC PG9914 Motion Detector (SKU: PG9914)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11940298507462686,
+      "lift": 1.2847156621953524,
+      "antecedent_count": 67,
+      "joint_count": 8,
+      "score": 0.07739190703083304
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11428571428571428,
+      "lift": 1.3682092555331993,
+      "antecedent_count": 70,
+      "joint_count": 8,
+      "score": 0.07729298467141674
+    },
+    {
+      "antecedent": [
+        "Hikvision 4MP IP Camera (SKU: DS-2CD2142FWD-I)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11764705882352941,
+      "lift": 1.2345679012345678,
+      "antecedent_count": 85,
+      "joint_count": 10,
+      "score": 0.0772355696636116
+    },
+    {
+      "antecedent": [
+        "Honeywell 6160 Keypad (SKU: 6160)"
+      ],
+      "consequent": "Bosch D7050 Detector (SKU: D7050)",
+      "support": 0.010588235294117647,
+      "confidence": 0.12,
+      "lift": 1.2289156626506024,
+      "antecedent_count": 75,
+      "joint_count": 9,
+      "score": 0.07711702285767157
+    },
+    {
+      "antecedent": [
+        "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)"
+      ],
+      "consequent": "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.2426900584795322,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.07668728574003954
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11764705882352941,
+      "lift": 1.2195121951219512,
+      "antecedent_count": 85,
+      "joint_count": 10,
+      "score": 0.07658617277924246
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10810810810810811,
+      "lift": 1.4586014586014588,
+      "antecedent_count": 74,
+      "joint_count": 8,
+      "score": 0.07629173566305408
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.3682092555331993,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.07620435108449539
+    },
+    {
+      "antecedent": [
+        "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)"
+      ],
+      "consequent": "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.41137401411374,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.0756693821287413
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Bosch DS160 Detector (SKU: DS160)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11688311688311688,
+      "lift": 1.2418831168831168,
+      "antecedent_count": 77,
+      "joint_count": 9,
+      "score": 0.07565762133895519
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.011764705882352941,
+      "confidence": 0.11363636363636363,
+      "lift": 1.254427390791027,
+      "antecedent_count": 88,
+      "joint_count": 10,
+      "score": 0.07542350164304772
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Bosch D7050 Detector (SKU: D7050)",
+      "support": 0.010588235294117647,
+      "confidence": 0.11842105263157894,
+      "lift": 1.2127457197209892,
+      "antecedent_count": 76,
+      "joint_count": 9,
+      "score": 0.07541100202414451
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11594202898550725,
+      "lift": 1.279879540749106,
+      "antecedent_count": 69,
+      "joint_count": 8,
+      "score": 0.07495593779567988
+    },
+    {
+      "antecedent": [
+        "Honeywell VISTA-20P Control Panel (SKU: VISTA-20P)"
+      ],
+      "consequent": "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.3903087303209976,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.07491507696918943
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.3119814779085472,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.07408040634300914
+    },
+    {
+      "antecedent": [
+        "Dahua 8-Channel NVR (SKU: NVR4208-8P-4KS2)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.011764705882352941,
+      "confidence": 0.10752688172043011,
+      "lift": 1.3246065139473275,
+      "antecedent_count": 93,
+      "joint_count": 10,
+      "score": 0.07405982048255842
+    },
+    {
+      "antecedent": [
+        "DSC PowerSeries Neo Alarm Kit (SKU: HS2016NK)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1111111111111111,
+      "lift": 1.2937595129375952,
+      "antecedent_count": 81,
+      "joint_count": 9,
+      "score": 0.07395939769690112
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.3500099265435774,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.07345335248902071
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.2942519984773506,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.07339997057811243
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1111111111111111,
+      "lift": 1.3687600644122382,
+      "antecedent_count": 63,
+      "joint_count": 7,
+      "score": 0.07318259997223245
+    },
+    {
+      "antecedent": [
+        "DSC WS4939 Wireless Key (SKU: WS4939)"
+      ],
+      "consequent": "Hanwha XRN-2010 NVR (SKU: XRN-2010)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.3636363636363635,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.07302656915094734
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1125,
+      "lift": 1.2418831168831168,
+      "antecedent_count": 80,
+      "joint_count": 9,
+      "score": 0.07282046053874437
+    },
+    {
+      "antecedent": [
+        "Bosch B5512 Control Panel (SKU: B5512)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1111111111111111,
+      "lift": 1.259259259259259,
+      "antecedent_count": 81,
+      "joint_count": 9,
+      "score": 0.07260926677840551
+    },
+    {
+      "antecedent": [
+        "Bosch D7050 Detector (SKU: D7050)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10843373493975904,
+      "lift": 1.2981503478703547,
+      "antecedent_count": 83,
+      "joint_count": 9,
+      "score": 0.0723435103355547
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-652-95R Carbon Monoxide Detector (SKU: 60-652-95R)"
+      ],
+      "consequent": "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10843373493975904,
+      "lift": 1.2981503478703547,
+      "antecedent_count": 83,
+      "joint_count": 9,
+      "score": 0.0723435103355547
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-746-01-95R Wireless Keypad (SKU: 60-746-01-95R)"
+      ],
+      "consequent": "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.3432835820895521,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.07229239264591651
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)"
+      ],
+      "consequent": "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.2601927353595255,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.07207793586566885
+    },
+    {
+      "antecedent": [
+        "Axis P3225-LVE Network Camera (SKU: 0935-001)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.3119814779085472,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.07205080616922806
+    },
+    {
+      "antecedent": [
+        "Dahua DH-IPC-HDBW4431R-ZS IP Camera (SKU: DH-IPC-HDBW4431R-ZS)"
+      ],
+      "consequent": "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)",
+      "support": 0.010588235294117647,
+      "confidence": 0.1111111111111111,
+      "lift": 1.242690058479532,
+      "antecedent_count": 81,
+      "joint_count": 9,
+      "score": 0.07195350266966673
+    },
+    {
+      "antecedent": [
+        "GE Interlogix NX-8 Control Panel (SKU: NX-8)"
+      ],
+      "consequent": "Hanwha QND-6010R Network Camera (SKU: QND-6010R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11594202898550725,
+      "lift": 1.2018381053375753,
+      "antecedent_count": 69,
+      "joint_count": 8,
+      "score": 0.07178805673269838
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.009411764705882352,
+      "confidence": 0.11267605633802817,
+      "lift": 1.243826595939272,
+      "antecedent_count": 71,
+      "joint_count": 8,
+      "score": 0.0714355693961552
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.3043478260869565,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.07086993969568703
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1111111111111111,
+      "lift": 1.2937595129375952,
+      "antecedent_count": 63,
+      "joint_count": 7,
+      "score": 0.07045219457149264
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10810810810810811,
+      "lift": 1.2942519984773506,
+      "antecedent_count": 74,
+      "joint_count": 8,
+      "score": 0.07042429609521599
+    },
+    {
+      "antecedent": [
+        "Bosch D7050 Detector (SKU: D7050)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10843373493975904,
+      "lift": 1.2289156626506024,
+      "antecedent_count": 83,
+      "joint_count": 9,
+      "score": 0.06968405679910081
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "DSC WS4933 Carbon Monoxide Detector (SKU: WS4933)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.267605633802817,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.06950540861951275
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "Honeywell 6160 Keypad (SKU: 6160)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1111111111111111,
+      "lift": 1.259259259259259,
+      "antecedent_count": 63,
+      "joint_count": 7,
+      "score": 0.06916608774627676
+    },
+    {
+      "antecedent": [
+        "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.00823529411764706,
+      "confidence": 0.10606060606060606,
+      "lift": 1.3455450022614202,
+      "antecedent_count": 66,
+      "joint_count": 7,
+      "score": 0.0690583105432984
+    },
+    {
+      "antecedent": [
+        "Bosch D7050 Detector (SKU: D7050)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10843373493975904,
+      "lift": 1.2127457197209892,
+      "antecedent_count": 83,
+      "joint_count": 9,
+      "score": 0.06905103799801185
+    },
+    {
+      "antecedent": [
+        "Axis P3225-LVE Network Camera (SKU: 0935-001)"
+      ],
+      "consequent": "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.225666906993511,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.0687798396076706
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.2328767123287672,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.06819516615485789
+    },
+    {
+      "antecedent": [
+        "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.2097491549546342,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.06816279057666234
+    },
+    {
+      "antecedent": [
+        "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)"
+      ],
+      "consequent": "Honeywell HEN08104 NVR (SKU: HEN08104)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1095890410958904,
+      "lift": 1.2097491549546342,
+      "antecedent_count": 73,
+      "joint_count": 8,
+      "score": 0.06816279057666234
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Honeywell 5800CO Carbon Monoxide Detector (SKU: 5800CO)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1044776119402985,
+      "lift": 1.3455450022614202,
+      "antecedent_count": 67,
+      "joint_count": 7,
+      "score": 0.06802758949041335
+    },
+    {
+      "antecedent": [
+        "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)"
+      ],
+      "consequent": "DSC WS4916 Smoke Detector (SKU: WS4916)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1111111111111111,
+      "lift": 1.2265512265512264,
+      "antecedent_count": 63,
+      "joint_count": 7,
+      "score": 0.06792852541639853
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-7608NI-I2/8P NVR (SKU: DS-7608NI-I2/8P)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10588235294117647,
+      "lift": 1.2162162162162162,
+      "antecedent_count": 85,
+      "joint_count": 9,
+      "score": 0.06755935330782434
+    },
+    {
+      "antecedent": [
+        "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10526315789473684,
+      "lift": 1.2601927353595255,
+      "antecedent_count": 76,
+      "joint_count": 8,
+      "score": 0.06733596640082222
+    },
+    {
+      "antecedent": [
+        "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)"
+      ],
+      "consequent": "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10810810810810811,
+      "lift": 1.209103840682788,
+      "antecedent_count": 74,
+      "joint_count": 8,
+      "score": 0.06721690193947942
+    },
+    {
+      "antecedent": [
+        "DSC WS4916 Smoke Detector (SKU: WS4916)"
+      ],
+      "consequent": "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1038961038961039,
+      "lift": 1.2798795407491061,
+      "antecedent_count": 77,
+      "joint_count": 8,
+      "score": 0.06716830789483004
+    },
+    {
+      "antecedent": [
+        "Axis M3046-V Network Camera (SKU: 0806-001)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1076923076923077,
+      "lift": 1.253951527924131,
+      "antecedent_count": 65,
+      "joint_count": 7,
+      "score": 0.06684443802235841
+    },
+    {
+      "antecedent": [
+        "Hanwha QNV-6010R Network Camera (SKU: QNV-6010R)"
+      ],
+      "consequent": "Pelco DSSRV2-040-US NVR (SKU: DSSRV2-040-US)",
+      "support": 0.00823529411764706,
+      "confidence": 0.10144927536231885,
+      "lift": 1.3687600644122384,
+      "antecedent_count": 69,
+      "joint_count": 7,
+      "score": 0.06681889562682095
+    },
+    {
+      "antecedent": [
+        "Honeywell 5808W3 Smoke Detector (SKU: 5808W3)"
+      ],
+      "consequent": "Axis P3225-LVE Network Camera (SKU: 0935-001)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10526315789473684,
+      "lift": 1.225666906993511,
+      "antecedent_count": 76,
+      "joint_count": 8,
+      "score": 0.06606484593894676
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1038961038961039,
+      "lift": 1.243826595939272,
+      "antecedent_count": 77,
+      "joint_count": 8,
+      "score": 0.06586916139125999
+    },
+    {
+      "antecedent": [
+        "Hanwha XRN-2010 NVR (SKU: XRN-2010)"
+      ],
+      "consequent": "Bosch F220-B6 Detector Base (SKU: F220-B6)",
+      "support": 0.00823529411764706,
+      "confidence": 0.10606060606060606,
+      "lift": 1.2521043771043772,
+      "antecedent_count": 66,
+      "joint_count": 7,
+      "score": 0.0657652312402279
+    },
+    {
+      "antecedent": [
+        "DSC PG9914 Motion Detector (SKU: PG9914)"
+      ],
+      "consequent": "Pelco Sarix IMP121-1IS IP Camera (SKU: IMP121-1IS)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10126582278481013,
+      "lift": 1.2847156621953524,
+      "antecedent_count": 79,
+      "joint_count": 8,
+      "score": 0.0656361743172888
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "Axis M3046-V Network Camera (SKU: 0806-001)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1,
+      "lift": 1.3076923076923077,
+      "antecedent_count": 80,
+      "joint_count": 8,
+      "score": 0.06560069220926718
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-848-02-95R Smoke Detector (SKU: 60-848-02-95R)"
+      ],
+      "consequent": "Dahua DH-IPC-HFW4431R-Z IP Camera (SKU: DH-IPC-HFW4431R-Z)",
+      "support": 0.010588235294117647,
+      "confidence": 0.10227272727272728,
+      "lift": 1.224391805377721,
+      "antecedent_count": 88,
+      "joint_count": 9,
+      "score": 0.0655581359901465
+    },
+    {
+      "antecedent": [
+        "Bosch NVR-5500-16A00 NVR (SKU: NVR-5500-16A00)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.009411764705882352,
+      "confidence": 0.10526315789473684,
+      "lift": 1.209103840682788,
+      "antecedent_count": 76,
+      "joint_count": 8,
+      "score": 0.0654480360989668
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Bosch B810 Wireless Receiver (SKU: B810)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1044776119402985,
+      "lift": 1.2686567164179103,
+      "antecedent_count": 67,
+      "joint_count": 7,
+      "score": 0.06536799494446989
+    },
+    {
+      "antecedent": [
+        "Bosch DS160 Detector (SKU: DS160)"
+      ],
+      "consequent": "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1,
+      "lift": 1.2878787878787878,
+      "antecedent_count": 80,
+      "joint_count": 8,
+      "score": 0.06492425397331746
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Honeywell 5800PIR-RES Motion Detector (SKU: 5800PIR-RES)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1044776119402985,
+      "lift": 1.2507883119613201,
+      "antecedent_count": 67,
+      "joint_count": 7,
+      "score": 0.06473701644801015
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "Bosch NDN-832V03-IP IP Camera (SKU: NDN-832V03-IP)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1038961038961039,
+      "lift": 1.2097491549546346,
+      "antecedent_count": 77,
+      "joint_count": 8,
+      "score": 0.06462186639086173
+    },
+    {
+      "antecedent": [
+        "Honeywell HEN08104 NVR (SKU: HEN08104)"
+      ],
+      "consequent": "Pelco IMP1110-1ES IP Camera (SKU: IMP1110-1ES)",
+      "support": 0.009411764705882352,
+      "confidence": 0.1038961038961039,
+      "lift": 1.2097491549546346,
+      "antecedent_count": 77,
+      "joint_count": 8,
+      "score": 0.06462186639086173
+    },
+    {
+      "antecedent": [
+        "GE Interlogix 60-807-95R Glassbreak Detector (SKU: 60-807-95R)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.00823529411764706,
+      "confidence": 0.10606060606060606,
+      "lift": 1.2182637182637184,
+      "antecedent_count": 66,
+      "joint_count": 7,
+      "score": 0.06453879120820272
+    },
+    {
+      "antecedent": [
+        "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)"
+      ],
+      "consequent": "Hikvision DS-2CD2385FWD-I IP Camera (SKU: DS-2CD2385FWD-I)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1044776119402985,
+      "lift": 1.200080677692618,
+      "antecedent_count": 67,
+      "joint_count": 7,
+      "score": 0.0629187439960905
+    },
+    {
+      "antecedent": [
+        "Bosch B810 Wireless Receiver (SKU: B810)"
+      ],
+      "consequent": "Honeywell H4D3PRV2 IP Camera (SKU: H4D3PRV2)",
+      "support": 0.00823529411764706,
+      "confidence": 0.1,
+      "lift": 1.2686567164179106,
+      "antecedent_count": 70,
+      "joint_count": 7,
+      "score": 0.06256650944684977
+    }
+  ]
+}
