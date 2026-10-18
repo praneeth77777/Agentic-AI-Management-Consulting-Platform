@@ -60,16 +60,128 @@ def specialists_node(state: State):
         evidence.extend(docs)
         findings.append(specialist(state['question'],domain,docs))
     return {'evidence':evidence,'findings':findings}
-def report_node(state:State):
-    recommendations=synthesize(state['findings'],state['evidence'])
-    issues=verify(state['findings'],recommendations,state['evidence'])
-    mock=any(e.retrieval=='mock' for e in state['evidence'])
-    return {'report':ConsultReport(question=state['question'], selected_agents=state['selected_agents'],
-      findings=state['findings'],evidence=state['evidence'],recommendations=recommendations,
-      uncertainties=(['All document passages are synthetic until real ingestion is enabled.'] if mock else [])+issues,
-      risks=['Recommendations are preliminary and must be checked against authoritative sources.'],
-      next_actions=['Confirm customer-specific constraints','Review cited documents before committing funds'],
-      kpis=['Time to decision','Recommendation validity'],mode='mock' if mock else 'hybrid')}
+
+
+def report_node(state: State):
+
+    findings = state["findings"]
+    evidence = state["evidence"]
+
+    # Step 1: Generate proposed recommendations.
+    proposed = synthesize(findings, evidence)
+
+    # Identify domains that use real document retrieval.
+    real_domains = {
+        e.domain for e in evidence
+        if e.retrieval == "hybrid"
+    }
+
+    accepted = []
+    withheld = []
+
+    # Step 2: Review each recommendation individually.
+    for recommendation in proposed:
+
+        # Preserve existing illustrative mock recommendations.
+        if recommendation.domain not in real_domains:
+            accepted.append(recommendation)
+            continue
+
+        # Run existing evidence checks on this recommendation.
+        problems = verify(
+            [],
+            [recommendation],
+            evidence
+        )
+
+        # Conservative safeguard for the prototype:
+        # Avoid definitive decisions before customer
+        # requirements have been validated.
+        action = recommendation.action.strip().lower()
+
+        premature_actions = (
+            "deploy ",
+            "select ",
+            "choose ",
+            "purchase ",
+            "buy ",
+            "order ",
+            "opt for ",
+            "implement "
+        )
+
+        if action.startswith(premature_actions):
+            problems.append(
+                "A deployment or purchasing decision requires "
+                "confirmed customer requirements and stronger validation."
+            )
+
+        if problems:
+            withheld.append(
+                f"Recommendation withheld for review: "
+                f"{recommendation.action}. "
+                f"Reasons: {'; '.join(problems)}"
+            )
+        else:
+            accepted.append(recommendation)
+
+    # Step 3: Verify findings and retained recommendations.
+    issues = verify(findings, accepted, evidence)
+
+    mock = any(
+        e.retrieval == "mock"
+        for e in evidence
+    )
+
+    uncertainties = []
+
+    if mock:
+        uncertainties.append(
+            "Some document passages are synthetic demonstration data."
+        )
+
+    uncertainties.extend(issues)
+    uncertainties.extend(withheld)
+
+    if real_domains:
+        uncertainties.append(
+            "Automated evidence checks are heuristic and do not "
+            "guarantee that every generated claim is factually supported."
+        )
+
+    next_actions = [
+        "Confirm customer-specific constraints",
+        "Review cited documents before committing funds"
+    ]
+
+    if withheld:
+        next_actions.insert(
+            0,
+            "Review or regenerate withheld recommendations "
+            "with stronger supporting evidence."
+        )
+
+    return {
+        "report": ConsultReport(
+            question=state["question"],
+            selected_agents=state["selected_agents"],
+            findings=findings,
+            evidence=evidence,
+            recommendations=accepted,
+            uncertainties=uncertainties,
+            risks=[
+                "Recommendations are preliminary and must be "
+                "checked against authoritative sources."
+            ],
+            next_actions=next_actions,
+            kpis=[
+                "Time to decision",
+                "Recommendation validity"
+            ],
+            mode="mock" if mock else "hybrid"
+        )
+    }
+
 
 def make_graph():
     graph=StateGraph(State)

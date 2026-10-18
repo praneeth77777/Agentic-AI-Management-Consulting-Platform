@@ -16,8 +16,16 @@ def mock_retrieve(question: str, domain: Domain) -> list[Evidence]:
                      text=passage, retrieval='mock')]
 
 def hybrid_retrieve(question: str, domain: Domain, limit: int = 4) -> list[Evidence]:
-    if os.getenv('RETRIEVAL_MODE', 'mock') != 'hybrid':
+    
+    retrieval_mode = os.getenv("RETRIEVAL_MODE", "mock")
+
+    if retrieval_mode != "hybrid":
         return mock_retrieve(question, domain)
+
+    # Enable real retrieval only for Technology for now.
+    if domain != "technology":
+        return mock_retrieve(question, domain)
+
     import chromadb
     from sentence_transformers import SentenceTransformer
     root = Path(os.getenv('INDEX_DIR', 'indexes'))
