@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.db
+*.sqlite*
+.chroma/
+chroma_db/
+indexes/
+data/*
+!data/README.md
